@@ -9,7 +9,7 @@ st.markdown("Explora los 240 proyectos clasificados por materia legal. Puedes fi
 # === CARGA DE DATOS ===
 @st.cache_data
 def load_data():
-    return pd.read_csv("classified_proyectos.csv")
+    return pd.read_csv("classified_proyectos_500w.csv")
 
 df = load_data()
 
